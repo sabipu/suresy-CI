@@ -1,0 +1,208 @@
+body
+{
+  padding: 50px;
+  font-size: 12px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding-top: 128px;
+}
+#download_policies {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #1466E7;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#download_policies:hover {
+  background: black;
+}
+input[readonly]
+{
+  border: none;
+  text-transform: capitalize;
+}
+input[type=text]
+{
+  width: 150px;
+  padding: 5px;
+}
+table
+{
+  width: 100%;
+}
+table tr th
+{
+  text-align: left;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.date
+{
+  font-size: 10px;
+}
+
+fieldset
+{
+  background: #ddd;
+  border: none;
+  padding: 15px;
+}
+#rate_manager
+{
+  margin-bottom: 100px;
+}
+
+#search_form button {
+  background: #383838;
+  color: white;
+  float: right;
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+#search_form button:hover {
+  background: black;
+  cursor: pointer;
+}
+
+#pagination ul {
+    display: block;
+    padding: 0;
+}
+#pagination ul li
+{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  background: white;
+  color: #aaa;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+#pagination ul li a
+{
+  color: #444;
+  text-decoration: none;
+}
+
+#pagination ul li:hover
+{
+  background: #ccc;
+  
+}
+
+#pagination ul li:hover a
+{
+  color: black;
+  
+}
+
+#pagination ul li.active
+{
+  background: black;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.rate_age .td_value input, .rate_age .td_range input
+{
+  opacity: 0;
+}
+.rate_cover_household_items .td_value input
+{
+  opacity: 0;
+}
+.rate_cover_electronics .td_value input
+{
+  opacity: 0;
+}
+.rate_cover_jewellery .td_value input
+{
+  opacity: 0;
+}
+
+.rate_cover_sports .td_value input
+{
+  opacity: 0;
+}
+
+.rate_postcode .td_range input
+{
+  opacity: 0;
+}
+
+
+.rate_security .td_value input, .rate_security .td_range input
+{
+  opacity: 0;
+}
+
+.rate_leap .td_value input, .rate_leap .td_range input
+{
+  opacity: 0;
+}
+
+.rate_gst .td_value input, .rate_gst .td_range input
+{
+  opacity: 0;
+}
+
+.rate_stamp_duty .td_value input, .rate_stamp_duty .td_range input
+{
+  opacity: 0;
+}
+
+.rate_leap .td_value input, .rate_leap .td_range input
+{
+  opacity: 0;
+}
+
+.rate_anchor .td_value input, .rate_anchor .td_range input
+{
+  opacity: 0;
+}
+
+.rate_excess .td_value input, .rate_excess .td_range input
+{
+  opacity: 0;
+}
+
+
+div#menu_container {
+    background: #212121;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 51px;
+}
+
+#menu_container ul
+{
+  display: block;
+}
+#menu_container ul li
+{
+  display: inline-block;
+  margin-right: 20px;  
+  
+}
+#menu_container ul li a
+{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  
+}

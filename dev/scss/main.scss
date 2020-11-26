@@ -1,0 +1,12 @@
+@import 'base/variables';
+@import 'base/reset';
+
+@import 'vendors/include-media';
+
+body {
+  background: $primary-color;
+
+  @include media('>=tablet') {
+    display: none;
+  }
+}

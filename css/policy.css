@@ -1,0 +1,425 @@
+.policy__wrap {
+  padding: 30px 15px; }
+
+.policy__header {
+  font-weight: 700;
+  padding-bottom: 40px; }
+
+.policy__header .button {
+  font-size: 18px; }
+
+.policy__info__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+  padding: 7px 0 0; }
+
+.policy__info__holder {
+  width: 50%;
+  padding: 0 10px 25px; }
+
+.policy__head {
+  display: block;
+  font-size: 14px;
+  color: #1671ea; }
+
+.policy__text {
+  display: block;
+  font-size: 18px;
+  max-width: 300px; }
+
+.policy__heading {
+  text-align: center;
+  background: #d5d5d5;
+  padding: 20px 10px 16px; }
+
+.policy__heading h2 {
+  font-size: 20px;
+  font-weight: 700; }
+
+.policy__header .btn__wrap {
+  margin-bottom: 12px; }
+
+.policy__header .contact__wrap {
+  padding-top: 10px; }
+  .policy__header .contact__wrap a {
+    color: #4a4a4a;
+    font-size: 85%;
+    text-decoration: underline; }
+    .policy__header .contact__wrap a:hover {
+      color: #1671ea; }
+
+.policy__number {
+  display: block;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 16px; }
+
+.policy__number .num {
+  display: block;
+  font-size: 28px; }
+
+.policy__table {
+  width: 100%;
+  font-weight: 700;
+  color: #2e2e2e;
+  font-size: 18px; }
+  .policy__table .v__top td {
+    vertical-align: top; }
+  .policy__table .excess .row__title {
+    padding-left: 20px; }
+
+.policy__table .space td {
+  height: 100px; }
+
+.policy__table col {
+  width: 20%; }
+
+.policy__table col:first-child {
+  width: 60%; }
+
+.policy__table thead th,
+.policy__table tbody td {
+  padding: 25px 40px;
+  text-align: center; }
+
+.policy__table thead th:first-child,
+.policy__table tbody td:first-child {
+  text-align: left; }
+
+.policy__table td {
+  vertical-align: bottom;
+  border-top: 4px solid #dbdbdb; }
+
+.policy__table th {
+  font-weight: 900; }
+
+.policy__table .bottom td {
+  border: none;
+  background: #1671ea;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: normal; }
+
+.policy__table .bottom td:last-child {
+  text-align: right; }
+
+.policy__table .bottom tr:first-child td {
+  padding-top: 25px;
+  font-weight: 700; }
+
+.policy__table .bottom tr:last-child td {
+  padding-bottom: 30px; }
+
+.policy__table tfoot td {
+  border: none;
+  background: #1863c6;
+  color: #fff;
+  padding: 25px 40px;
+  vertical-align: middle; }
+
+.policy__table tfoot td:last-child {
+  text-align: right; }
+
+.policy__table .month {
+  display: block;
+  color: #7bb4ff; }
+
+.policy__table .row__title {
+  font-size: 18px;
+  font-weight: 400;
+  display: block; }
+  
+.policy__table .row__title .max {
+	font-size: 85%;
+}
+
+.policy__table .main__info {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 20px;
+  max-width: 365px;
+  font-weight: 700; }
+
+.policy__table .info {
+  display: block;
+  font-size: 16px; }
+  
+ .bill__info {
+	 display: block;
+	 padding: 30px 0 0;
+	 text-align: center
+ }
+
+@media only screen and (min-width: 767px) {
+  .policy__wrap {
+    padding: 80px 60px; }
+  .policy__number {
+    font-size: 30px; }
+  .policy__number .num {
+    font-size: 35px; }
+  .policy__info__holder {
+    width: 55%;
+    padding: 0 15px 35px; }
+  .policy__info__holder:nth-child(even) {
+    width: 45%; }
+  .policy__head {
+    font-size: 16px; }
+  .policy__text {
+    font-size: 24px; }
+  .policy__heading {
+    padding: 24px 20px; } }
+
+@media print {
+  * {
+    background: none !important;
+    color: #000 !important; }
+    
+  .bill__info {
+	  padding: 10px 0 0;
+  }
+  
+  .policy__head,
+  .policy__head mark,
+  .policy__number mark,
+  .policy__heading mark {
+	  color: #1671ea !important;
+  }
+  #projecthuddle-container,
+  #ph-annotation-dot-container {
+	  display: none !important;
+  }
+  #wrapper {
+    display: block;
+    min-height: 1px; }
+  #main {
+    display: block; }
+  .footer {
+    border-top: 1px solid #000;
+    display: block; }
+  .copyright {
+    display: block; }
+  .design {
+    display: none; }
+  .policy__table .main__info {
+    display: block;
+    max-width: 250px;
+    margin-bottom: 0; }
+  body {
+    color: #000;
+    background: #fff; }
+  .header-wrapper {
+    display: none !important; }
+  a {
+    text-decoration: underline;
+    color: #000; }
+  .logo {
+    text-align: center;
+    float: none;
+    text-align: center;
+    margin: 0 auto; }
+    .logo .normal {
+      display: none; }
+    .logo .print {
+      display: block; }
+  .header {
+    position: relative;
+    padding-bottom: 0; }
+  .banner {
+    display: none; }
+  .top-content {
+    margin: 0; }
+  .box {
+    border-radius: 0;
+    box-shadow: none;
+    color: #000; }
+  .policy__header {
+    padding-bottom: 20px; }
+    .policy__header .btn__wrap {
+      display: none; }
+  .policy__wrap {
+    padding: 20px 0 0; }
+  .policy__heading {
+    padding: 0;
+    margin-bottom: 10px; }
+  .policy__number {
+    font-size: 24px; }
+  .policy__info__holder {
+    padding-bottom: 10px; }
+  .policy__head {
+    font-size: 14px; }
+  .policy__text {
+    font-size: 16px; }
+  .policy__table {
+    font-size: 14px; }
+    .policy__table col {
+      width: auto; }
+      .policy__table col:first-child {
+        width: auto; }
+    .policy__table thead th,
+    .policy__table tbody td,
+    .policy__table .bottom td,
+    .policy__table tfoot td {
+      padding: 10px 15px; }
+    .policy__table td {
+      border-top: 1px solid #000; }
+    .policy__table tfoot {
+      border-top: 2px solid #000; }
+    .policy__table tfoot tr {
+      border-top: 1px solid #000; }
+      .policy__table tfoot tr.bottom {
+        border: none; }
+      .policy__table tfoot tr td {
+        border: none; }
+    .policy__table .space {
+      display: none; }
+  .table-holder {
+    overflow: hidden; }
+    .table-holder table {
+      min-width: 1px;
+      width: 100% !important; } }
+
+      
+@media only screen and (max-width: 619px) {
+	.policy__heading {
+		margin-bottom: 10px;
+	}
+	
+	.responsive__table {
+		width: 100%;
+		overflow: hidden;
+		box-sizing: content-box;
+		border-top: 1px solid #d5d5d5;
+		font-size: 14px;
+		display: block;
+	}
+	
+	.responsive__table * {
+		box-sizing: content-box;
+	}
+	
+	.responsive__table .v__top td {
+		vertical-align: middle;
+	}
+	
+	.responsive__table thead,
+	.responsive__table colgroup {
+		display: none;
+	}
+	
+	.responsive__table tbody,
+	.responsive__table tbody td,
+	.responsive__table tbody tr {
+		display: block;
+	}
+	
+	.responsive__table tfoot {
+		display: table;
+		clear: both;
+		width: 100%;
+	}
+	
+	.responsive__table .space,
+	.responsive__table .responsive__hidden {
+		display: none;
+	}
+	
+	.responsive__table tbody {
+		display: block;
+		border-left: 105px solid #fff;
+		float: left;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.responsive__table tbody tr {
+		width: 100%;
+		background: #fff;
+		clear: both;
+		border-bottom: 10px solid #ccc;
+		position: relative;
+	}
+	
+	.responsive__table tbody tr:before {
+		content: '';
+		position: absolute;
+		right: 100%;
+		bottom: -10px;
+		width: 140px;
+		background: #ccc;
+		height: 10px;
+		
+	}
+	
+	.responsive__table tbody tr:nth-last-child(2) {
+		border-bottom: none;
+	}
+	
+	.responsive__table tbody tr:nth-last-child(2):before {
+		display: none;
+	}
+	
+	.responsive__table tbody tr:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+	
+	.responsive__table tbody td {
+		padding: 0 0 0 105px;
+		margin: 0 -1px 0 -105px;
+		float: left;
+		clear: both;
+		white-space: nowrap;
+		width: 100%;
+		border: none;
+		
+	}
+	
+	.responsive__table tbody td:before {
+		content: attr(data-label);
+		padding: 5px 10px;
+		display: inline-block;
+		color: #1671ea !important;
+		font-size: 14px;
+		font-weight: bold;
+		width: 87px;
+		vertical-align: middle;
+		margin: 0 0 0 -105px;
+		position: relative;
+		white-space: normal;
+		text-align: right;
+	}
+	
+	.responsive__table  td .info,
+	.responsive__table td .price,
+	.responsive__table .row__title,
+	.responsive__table .main__info {
+		white-space: normal;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 9px 15px;
+		font-size: 14px;
+		max-width: none;
+		margin: 0;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+		border-top: 1px solid #d5d5d5;
+	}
+	
+	.responsive__table td:first-child .info,
+	.responsive__table td:first-child .price,
+	.responsive__table td:first-child .row__title,
+	.responsive__table td:first-child .main__info {
+		border-top: none;
+	}
+	
+	.responsive__table tfoot td {
+		padding: 17px 15px;
+	}
+}

@@ -1,0 +1,149 @@
+@import 'mixins';
+@import 'variables';
+@import "../vendors/include-media";
+
+* {max-height: 1000000px;}
+
+body {
+  color: $base-text-color;
+  background: $base-background-color;
+  font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+  min-width: $base-min-width;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea {
+  font-family: $base-font-family;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $base-link-color;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+mark {
+  background: transparent;
+  color: $primary-color;
+  padding: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+strong {
+  color: inherit;
+}
+
+.container {
+  @extend %clearfix;
+  max-width: 1380px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &.is-fluid {
+    max-width: none;
+
+    @include media('>=1088px') {
+      margin: 0;
+    }
+    
+    @include media('>=1430px') {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin: 0;
+    }
+
+  }
+}
+
+.title {
+  color: inherit;
+}
+
+.columns.no__bottom {
+  margin-bottom: -0.75rem;
+
+  .column {
+    @include media('<=tablet') {
+      padding-top: 0;
+    }
+    &:first-child {
+      @include media('<=tablet') {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+.button {
+  transition: all 0.3s;
+  display: inline-block;
+  border-radius: 40px;
+  height: auto;
+  padding: 10px 25px;
+  min-width: 120px;
+
+  .ico-wrap {
+    float: right;
+    margin: 5px 0 0 10px;
+    line-height: 1;
+    color: rgba(255,255,255,0.5);
+
+    &.left {
+      float: left;
+    }
+  }
+
+  .ico-wrap.left {
+    float: left;
+    margin-left: -5px;
+    margin-right: 17px;
+  }
+
+  &.is-right {
+    float: right;
+  }
+
+  &.is-left {
+    float: left;
+  }
+
+  &.is-text {
+    text-decoration: none;
+    color: $primary-color;
+  }
+  &.is-link {
+    background: #1671ea;
+
+    &[disabled] {
+      background: #ddd;
+    }
+  }
+
+  &.is-dark {
+    background: #606060;
+  }
+
+  &.is-green {
+    background: #218559;
+    color: $white;
+  }
+}
+
+// google map fix
+.gm-style img {
+  max-width: none
+}

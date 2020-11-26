@@ -1,0 +1,165 @@
+.container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+* {
+	max-height: 1000000px;
+}
+
+body {
+	color: #606060;
+	background: #fff;
+	font: 16px/1.25 "Museo Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	min-width: 320px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea {
+	font-family: "Museo Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #1671ea;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+mark {
+	background: transparent;
+	color: #1671ea;
+	padding: 0;
+}
+
+img {
+	vertical-align: top;
+}
+
+strong {
+	color: inherit;
+}
+
+.container {
+	max-width: 1380px;
+	width: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container.is-fluid {
+	max-width: none;
+}
+
+.title {
+	color: inherit;
+}
+
+.columns.no__bottom {
+	margin-bottom: -.75rem;
+}
+
+.button {
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	display: inline-block;
+	border-radius: 40px;
+	height: auto;
+	padding: 10px 25px;
+	min-width: 120px;
+}
+
+.button .ico-wrap {
+	float: right;
+	margin: 5px 0 0 10px;
+	line-height: 1;
+	color: rgba(255, 255, 255, .5);
+}
+
+.button .ico-wrap.left {
+	float: left;
+}
+
+.button .ico-wrap.left {
+	float: left;
+	margin-left: -5px;
+	margin-right: 17px;
+}
+
+.button.is-right {
+	float: right;
+}
+
+.button.is-left {
+	float: left;
+}
+
+.button.is-text {
+	text-decoration: none;
+	color: #1671ea;
+}
+
+.button.is-link {
+	background: #1671ea;
+}
+
+.button.is-link[disabled] {
+	background: #ddd;
+}
+
+.button.is-dark {
+	background: #606060;
+}
+
+.button.is-green {
+	background: #218559;
+	color: #fff;
+}
+
+.gm-style img {
+	max-width: none;
+}
+
+body {
+	background: #1671ea;
+}
+
+@media (min-width: 768px) {
+	body {
+		display: none;
+	}
+}
+
+@media (min-width: 1088px) {
+	.container.is-fluid {
+		margin: 0;
+	}
+}
+
+@media (min-width: 1430px) {
+	.container.is-fluid {
+		padding-left: 40px;
+		padding-right: 40px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.columns.no__bottom .column {
+		padding-top: 0;
+	}
+
+	.columns.no__bottom .column:first-child {
+		padding-bottom: 0;
+	}
+}

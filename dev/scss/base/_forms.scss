@@ -1,0 +1,80 @@
+// forms
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.input,
+.textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  box-sizing: border-box;
+  height: $form-input-height;
+  border: 1px solid $form-element-border-color;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+  transition: border 0.3s, box-shadow 0.3s;
+
+  &:focus {
+    border-color: $form-element-focus-border-color;
+    box-shadow: 0 0 6px $primary-color;
+  }
+
+  @include placeholder {
+    color: $placeholder-color;
+  }
+}
+
+.select {
+  width: 100%;
+
+  select {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #363636;
+    font-size: 1rem;
+    font-family: $base-font;
+  }
+}
+
+.select:not(.is-multiple) {
+  height: $form-input-height;
+}
+
+select {
+  -webkit-border-radius: 0;
+}
+
+.control {
+  &.has-icons-left .icon,
+  &.has-icons-right .icon {
+    height: auto;
+    bottom: 0;
+    color: $primary-color;
+  }
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='file'],
+input[type='submit'] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  cursor: pointer;
+}
+

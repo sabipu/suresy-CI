@@ -1,0 +1,38 @@
+.table__options:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+.table__options {
+	padding-bottom: 50px;
+}
+
+.table__options .holder {
+	float: right;
+}
+
+.table__options h2 {
+	float: left;
+	font-size: 22px;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+.policies_table {
+	width: 100%;
+}
+
+.policies_table td {
+	vertical-align: middle;
+}
+
+.policies_table td:first-child {
+	font-weight: 700;
+}
+
+.policies_table td,
+.policies_table th {
+	text-align: center;
+	padding: 1.5em .75em;
+}

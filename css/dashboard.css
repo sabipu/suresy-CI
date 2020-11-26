@@ -1,0 +1,118 @@
+.dash__box {
+  padding-bottom: 60px; }
+  .dash__box .subscription {
+    display: block;
+    font-size: 28px;
+    line-height: 1.2;
+    padding-bottom: 5px; }
+    @media (min-width: 768px) {
+      .dash__box .subscription {
+        font-size: 35px; } }
+    @media (min-width: 1024px) {
+      .dash__box .subscription {
+        font-size: 40px; } }
+    .dash__box .subscription.email {
+      font-size: 28px; }
+  .dash__box .due {
+    display: block; }
+
+.options a {
+  text-align: center;
+  display: block;
+  width: 200px;
+  margin: 0 auto; }
+  @media (min-width: 1024px) {
+    .options a {
+      width: 250px; } }
+  .options a:hover .img-wrap {
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02); }
+    .options a:hover .img-wrap:before {
+      top: 90%; }
+
+.options .img-wrap {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  border-radius: 100%;
+  background: #1671ea;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s; }
+  @media (min-width: 1024px) {
+    .options .img-wrap {
+      width: 250px;
+      height: 250px;
+      padding: 0; } }
+  .options .img-wrap:before {
+    content: '';
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #1863c6;
+    z-index: 3;
+    -webkit-transition: top 0.3s;
+            transition: top 0.3s; }
+
+.options .text {
+  display: block;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 25px 0 0;
+  color: #1671ea; }
+
+.dash__title {
+  display: block;
+  font-weight: 900;
+  margin: 0 0 10px; }
+  @media (min-width: 768px) {
+    .dash__title {
+      float: left;
+      width: 180px;
+      padding-right: 20px; } }
+  .dash__title-text {
+    color: #1671ea;
+    font-size: 20px;
+    padding-top: 8px;
+    display: block; }
+
+.dash__text {
+  overflow: hidden; }
+
+.my-claim-list li {
+  border-bottom: 2px solid #d5d5d5;
+  padding: 20px 0; }
+  .my-claim-list li:first-child {
+    border-top: 0;
+    padding-top: 0; }
+
+.my-claim-list .wrap-info {
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 5px; }
+
+.my-claim-list .hold {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px; }
+  .my-claim-list .hold span {
+    color: #1671ea;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle; }

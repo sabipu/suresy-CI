@@ -1,0 +1,146 @@
+.dash__box {
+  padding-bottom: 60px;
+
+  .subscription {
+    display: block;
+    font-size: 28px;
+    line-height: 1.2;
+    padding-bottom: 5px;
+
+    @include media('>=tablet') {
+      font-size: 35px;
+    }
+
+    @include media('>=desktop') {
+      font-size: 40px;
+    }
+
+    &.email {
+      font-size: 28px;
+    }
+  }
+
+  .due {
+    display: block;
+  }
+}
+
+.options {
+  a {
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+
+    @include media('>=desktop') {
+      width: 250px;
+    }
+
+    &:hover {
+      .img-wrap {
+        transform: scale(1.02);
+
+        &:before {
+          top: 90%;
+        }
+      }
+    }
+  }
+
+  .img-wrap {
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 100%;
+    background: $primary-color;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    @include media('>=desktop') {
+      width: 250px;
+      height: 250px;
+      padding: 0;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 85%;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      background: $secondary-color;
+      z-index: 3;
+      transition: top 0.3s;
+    }
+  }
+
+  .text {
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 25px 0 0;
+    color: $primary-color;
+  }
+}
+
+.dash__title {
+  display: block;
+  font-weight: 900;
+  margin: 0 0 10px;
+
+  @include media('>=tablet') {
+    float: left;
+    width: 180px;
+    padding-right: 20px;
+  }
+
+  &-text {
+    color: $primary-color;
+    font-size: 20px;
+    padding-top: 8px;
+    display: block;
+  }
+}
+
+.dash__text {
+  overflow: hidden;
+}
+
+.my-claim-list {
+  li {
+    border-bottom: 2px solid $l-grey;
+    padding: 20px 0;
+
+    &:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+  }
+
+  .wrap-info {
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+
+  .hold {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 80px;
+
+    span {
+      color: $primary-color;
+      margin-left: 5px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
